@@ -1,0 +1,13 @@
+.searchBar{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: center;
+}
+.field{
+    
+    color: white;
+    font-size:xx-large;
+    
+}
