@@ -1,7 +1,13 @@
 import { render } from '@testing-library/react';
-import React from 'react'
-import {Menu} from "./Menu";
+import React from 'react';
+import Menu from './Menu';
 import './Navbar.css';
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link
+//   } from "react-router-dom";
 
 class Navbar extends React.Component
 {
@@ -22,3 +28,28 @@ class Navbar extends React.Component
         }
 }
 export default Navbar
+
+
+
+// class Navbar extends React.Component {
+//     render() {
+//         return (
+//             <div class="container">
+//                 <nav>
+//                   <Link to="/App">Search</Link>
+//                   <Link to="/Counter">Counter</Link>
+//                 </nav>
+//                 <Route
+//                     path="/App"
+//                     component={App}
+//                     exact 
+//                 />
+//                 <Route
+//                     path="/Counter"
+//                     component={Counter} 
+//                 />
+//             </div>
+//         );
+//     }
+// }
+// export default Navbar

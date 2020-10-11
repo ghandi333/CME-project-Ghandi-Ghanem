@@ -1,4 +1,4 @@
-export const Menu =[
+const Menu =[
     {
         title:'Search',
         url:'/App',
@@ -10,3 +10,4 @@ export const Menu =[
         cName:'links'
     },
 ]
+export default Menu
